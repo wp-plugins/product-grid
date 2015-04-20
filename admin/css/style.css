@@ -1,0 +1,181 @@
+/*
+Admin css
+*/
+
+
+.product-grid-settings{}
+
+
+.product-grid-settings ul.product_grid_bg_img_list{}
+
+.product-grid-settings ul.product_grid_bg_img_list li {
+  display: inline-block;
+  margin: 5px;
+}
+.product-grid-settings ul.product_grid_bg_img_list li.bg-selected {}
+
+.product-grid-settings ul.product_grid_bg_img_list li img{border: 2px solid #ffffff;}
+
+.product-grid-settings ul.product_grid_bg_img_list li.bg-selected img{
+  border: 2px solid #ff5a11;
+}
+
+
+.product-grid-settings .product_grid_loading_taxonomy_category {
+  background:url("../../css/loading.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 11px;
+  width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.product-grid-settings .product-grid-builder {
+  margin-bottom: 20px;
+}
+.product-grid-settings .product-grid-builder .items {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  border: 1px solid rgb(153, 153, 153);
+  min-height: 50px;
+  padding: 5px;
+}
+
+.product-grid-settings .product-grid-builder .item {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  cursor: move;
+  display: inline-block;
+  margin: 2px;
+  padding: 5px 10px;
+}
+.product-grid-settings .product-grid-builder .item.active{
+	background: none repeat scroll 0 0 rgb(221, 240, 255);
+}
+.product-grid-settings .product-grid-builder .item.active .options {
+	display:block;
+}
+
+.product-grid-settings .product-grid-builder .item.ui-draggable-dragging {
+border:1px dashed #999;
+}
+
+
+.product-grid-settings .product-grid-builder .item .options {
+	display:none;
+}
+
+
+
+
+.product-grid-settings .product-grid-builder .canvas {
+  background: none repeat scroll 0 0 rgb(230, 230, 230);
+  border: 1px solid rgb(153, 153, 153);
+  margin: 20px 0;
+  min-height: 100px;
+  padding: 10px 10px 50px;
+}
+
+.product-grid-settings .product-grid-builder .canvas .saved-item {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  display: block;
+  margin: 2px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+
+.product-grid-settings .product-grid-builder .canvas .ui-sortable-helper{
+	border:1px dashed #999;
+
+}
+
+
+.product-grid-settings .product-grid-builder .canvas .saved-item.active {
+
+  padding: 0;
+}
+
+.product-grid-settings .product-grid-builder .canvas .saved-item.active .header {
+  border-bottom: 1px solid rgb(153, 153, 153);
+  margin-bottom: 15px;
+  padding: 7px 10px;
+}
+.product-grid-settings .product-grid-builder .canvas .saved-item .options {
+	display:none;
+
+}
+.product-grid-settings .product-grid-builder .canvas .saved-item.active .options {
+	display:block;
+	padding: 7px 10px;
+}
+
+.product-grid-settings .product-grid-builder .canvas .saved-item .remove {
+  background: none repeat scroll 0 0 rgb(255, 137, 65);
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 0 5px;
+  position: relative;
+}
+
+.product-grid-settings #product-grid-builder {
+  width: 100%;
+}
+
+
+.product-grid-settings #product-grid-builder tr {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  padding: 0;
+}
+
+.product-grid-settings #product-grid-builder td {
+
+}
+
+.product-grid-settings #product-grid-builder td.dragHandle {
+  text-align: center;
+  width: 25px;
+}
+
+
+
+.product-grid-settings #product-grid-builder .header {
+    border-bottom: 1px solid rgb(153, 153, 153);
+    padding: 5px 10px;
+}
+
+.product-grid-settings #product-grid-builder .options {
+  display: none;
+}
+.product-grid-settings #product-grid-builder tr.active{
+background: none repeat scroll 0 0 rgb(221, 240, 255);
+}
+
+.product-grid-settings #product-grid-builder tr.active .header {
+background: none repeat scroll 0 0 rgb(172, 218, 253);
+}
+.product-grid-settings #product-grid-builder tr.active .options {
+  display: block;
+  padding: 5px 10px;
+}
+
+.product-grid-settings .input-switch {
+  display: inline-block;
+  float: right;
+  margin-left: 10px;
+  margin-right: 43px;
+  position: absolute;
+  right: 23px;
+  top: 0;
+  vertical-align: top;
+  width: 14px;
+}

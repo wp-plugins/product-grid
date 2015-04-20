@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/*Theme 1*/
+
+.product-grid-container .cart {
+  overflow: hidden;
+}
+
+.product-grid-container .cart p.add_to_cart_inline {
+  border: medium none !important;
+  margin: 0;
+}
+
+.product-grid-container .cart p .amount {
+  display: none;
+}
+
+
+
+
+
+
